@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet</title>
+    <link rel ="stylesheet" href="ms.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Marksheet</h1>
+
+        <input type="text" id="name" placeholder="Student Name"/>
+        <input type="number" id="Sub1" placeholder="Physics Marks"/>
+        <input type="number" id="Sub2" placeholder="English Marks"/>
+        <input type="number" id="Sub3" placeholder="Biology Marks"/>
+        <input type="number" id="Sub4" placeholder="Chemistry Marks"/>
+        <button onclick="result()">Calculate Marks</button>
+
+        <div class="result">
+            <p><strong>Name:-</strong><span id="rName"></span></p>
+            <p><strong>Obtmarks:-</strong><span id="Total"></span></p>
+            <p><strong>Percentage:-</strong><span id="Average"></span></p>
+            <p><strong>Grade:-</strong><span id="Grade"></span></p>
+            
+
+        </div>
+        
+    </div>
+    <script src="ms.js"></script>
+</body>
+</html>
